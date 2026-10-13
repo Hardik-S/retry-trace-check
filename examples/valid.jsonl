@@ -1,0 +1,3 @@
+{"call_id":"synthetic-α","attempt":1,"outcome":"error"}
+{"call_id":"synthetic-β","attempt":1,"outcome":"success"}
+{"call_id":"synthetic-α","attempt":2,"outcome":"success"}

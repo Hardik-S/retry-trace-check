@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retry-trace-check"
+version = "0.1.0"
+description = "Offline strict validator for observed retry traces"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+classifiers = ["Programming Language :: Python :: 3", "Programming Language :: Python :: 3.10"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+retry-trace-check = "retry_trace_check.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
